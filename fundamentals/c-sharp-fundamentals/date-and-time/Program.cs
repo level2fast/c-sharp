@@ -10,6 +10,7 @@ namespace date_and_time
     {
         static void Main(string[] args)
         {
+            // Example: DateTime Object usage
             var dateTime = new DateTime(2015, 1, 1);
             var now = DateTime.Now;
             var today = DateTime.Today;
@@ -35,16 +36,17 @@ namespace date_and_time
             var end = DateTime.Now.AddMinutes(2);
             TimeSpan duration = start - end;
 
-            Console.WriteLine("Minutes:" + timeSpan.Minutes);
-            Console.WriteLine("Total Minutes:" + timeSpan.TotalMinutes);
+            Console.WriteLine("Minutes: " + timeSpan.Minutes);
+            Console.WriteLine("Total Minutes: " + timeSpan.TotalMinutes);
 
             //Add 
-            Console.WriteLine("Add Example:" + timeSpan.Add(TimeSpan.FromMinutes(8)));
+            Console.WriteLine("Add Example: " + timeSpan.Add(TimeSpan.FromMinutes(8)));
+
             //Subtract
-            Console.WriteLine("Subtract Example:" + timeSpan.Subtract(TimeSpan.FromMinutes(2)));
+            Console.WriteLine("Subtract Example: " + timeSpan.Subtract(TimeSpan.FromMinutes(2)));
 
             //ToString
-            Console.WriteLine("ToString" + timeSpan.ToString());
+            Console.WriteLine("ToString: " + timeSpan.ToString());
 
             //Parse
             Console.WriteLine("Parse: " + TimeSpan.Parse("01:02:03"));

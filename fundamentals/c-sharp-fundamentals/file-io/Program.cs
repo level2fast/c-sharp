@@ -4,20 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+
 namespace file_io
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            // File and FileInfo
+#if DEBUG
+            // Example of File and FileInfo
             var path = @"c:\temp2\myfile.jpg";
             // some useful mehtods:
             // File.Encrypt, File.Copy
             // These static methods force the operating system to do security
             // checks when used. Could effect performance of the app.
             // Best to use these for short operations. 
-            File.Copy("c:\\temp\\myfile.jpg","e:\\temp\\myfile.jpg", true);
+            File.Copy("c:\\temp\\myfile.jpg", "e:\\temp\\myfile.jpg", true);
             File.Delete(path);
             if (File.Exists(path))
             {
@@ -31,7 +33,7 @@ namespace file_io
             var fileInfo = new FileInfo(path);
             fileInfo.CopyTo("...");
             fileInfo.Delete();
-            if(fileInfo.Exists)
+            if (fileInfo.Exists)
             {
 
             }
@@ -39,7 +41,7 @@ namespace file_io
             // Directory and DirectoryInfo
             Directory.CreateDirectory(@"c:\\temp\\");
             // method below returns all files from the directory specified in the 1st parameter
-            var files = Directory.GetFiles(@"c:\Github\c-sharp\c-sharp-fundamentals", "*.*",SearchOption.AllDirectories);
+            var files = Directory.GetFiles(@"c:\Github\c-sharp\c-sharp-fundamentals", "*.*", SearchOption.AllDirectories);
             foreach (var file in files)
             {
                 Console.WriteLine(file);
@@ -63,6 +65,8 @@ namespace file_io
             Console.WriteLine("File Name: " + Path.GetFileName(path2));
             Console.WriteLine("File Name without Extension: " + Path.GetFileNameWithoutExtension(path2));
             Console.WriteLine("Directory Name: " + Path.GetDirectoryName(path2));
+
+#endif
 
         }
     }
