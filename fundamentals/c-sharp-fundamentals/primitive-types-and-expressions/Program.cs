@@ -10,7 +10,7 @@ namespace primitive_types_and_expressions
     {
         static void Main(string[] args)
         {
-            // declaring and initialzing variabbles
+            // declaring and initialzing variables
             int number = 0;
             int secondNumber = 1;
 
