@@ -22,7 +22,7 @@ namespace primitive_types_and_expressions
 
             // in C# local variables use camel case
             int myNumber;
-            // in C# for constans: Pascal Case
+            // in C# for constants: Pascal Case
             const int MaxNumber = 12;
 
             // Overflow concepts
