@@ -19,9 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "classes", "Classes\classes.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "inheritance", "inheritance\inheritance.csproj", "{D33848D1-3195-45A3-AD68-4FF9BD5B928C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "access-modifiers", "access-modifiers\access-modifiers.csproj", "{1400AFBE-194F-4B18-9B41-D70783341F83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "access-modifiers", "access-modifiers\access-modifiers.csproj", "{1400AFBE-194F-4B18-9B41-D70783341F83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "internal-modifier", "Amazon\internal-modifier.csproj", "{03346F17-0ABC-4BC8-A316-C6537ECB3455}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "internal-modifier", "Amazon\internal-modifier.csproj", "{03346F17-0ABC-4BC8-A316-C6537ECB3455}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interfaces", "interfaces\interfaces.csproj", "{3C525ACC-68B3-4979-8994-2480871B3351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceTest", "InterfaceTest\InterfaceTest.csproj", "{5D78D4D6-7A40-41F6-BCE4-8EE0FF2637F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{03346F17-0ABC-4BC8-A316-C6537ECB3455}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03346F17-0ABC-4BC8-A316-C6537ECB3455}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03346F17-0ABC-4BC8-A316-C6537ECB3455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C525ACC-68B3-4979-8994-2480871B3351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C525ACC-68B3-4979-8994-2480871B3351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C525ACC-68B3-4979-8994-2480871B3351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C525ACC-68B3-4979-8994-2480871B3351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D78D4D6-7A40-41F6-BCE4-8EE0FF2637F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D78D4D6-7A40-41F6-BCE4-8EE0FF2637F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D78D4D6-7A40-41F6-BCE4-8EE0FF2637F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D78D4D6-7A40-41F6-BCE4-8EE0FF2637F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
