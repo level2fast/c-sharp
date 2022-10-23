@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceTest", "InterfaceT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces-and-extensibility", "Interfaces-and-extensibility\Interfaces-and-extensibility.csproj", "{D99E64C1-A5E5-4E3F-90A1-B96A24B57E6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interfaces-and-polymorphism", "interfaces-and-polymorphism\interfaces-and-polymorphism.csproj", "{B4EE65BE-2191-40A9-8CD9-264ACAE33B3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{D99E64C1-A5E5-4E3F-90A1-B96A24B57E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D99E64C1-A5E5-4E3F-90A1-B96A24B57E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D99E64C1-A5E5-4E3F-90A1-B96A24B57E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4EE65BE-2191-40A9-8CD9-264ACAE33B3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4EE65BE-2191-40A9-8CD9-264ACAE33B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4EE65BE-2191-40A9-8CD9-264ACAE33B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4EE65BE-2191-40A9-8CD9-264ACAE33B3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
