@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interfaces", "interfaces\in
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceTest", "InterfaceTest\InterfaceTest.csproj", "{5D78D4D6-7A40-41F6-BCE4-8EE0FF2637F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces-and-extensibility", "Interfaces-and-extensibility\Interfaces-and-extensibility.csproj", "{D99E64C1-A5E5-4E3F-90A1-B96A24B57E6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{5D78D4D6-7A40-41F6-BCE4-8EE0FF2637F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D78D4D6-7A40-41F6-BCE4-8EE0FF2637F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D78D4D6-7A40-41F6-BCE4-8EE0FF2637F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D99E64C1-A5E5-4E3F-90A1-B96A24B57E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D99E64C1-A5E5-4E3F-90A1-B96A24B57E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D99E64C1-A5E5-4E3F-90A1-B96A24B57E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D99E64C1-A5E5-4E3F-90A1-B96A24B57E6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
