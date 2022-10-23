@@ -15,7 +15,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strings", "strings\strings.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "file-io", "file-io\file-io.csproj", "{9A9B3E8F-668C-4347-9E7F-D43BF962FEC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{32978151-373A-4A25-B832-EB01F6464D56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "classes", "Classes\classes.csproj", "{32978151-373A-4A25-B832-EB01F6464D56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "inheritance", "inheritance\inheritance.csproj", "{D33848D1-3195-45A3-AD68-4FF9BD5B928C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "access-modifiers", "access-modifiers\access-modifiers.csproj", "{1400AFBE-194F-4B18-9B41-D70783341F83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "internal-modifier", "Amazon\internal-modifier.csproj", "{03346F17-0ABC-4BC8-A316-C6537ECB3455}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{32978151-373A-4A25-B832-EB01F6464D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32978151-373A-4A25-B832-EB01F6464D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32978151-373A-4A25-B832-EB01F6464D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D33848D1-3195-45A3-AD68-4FF9BD5B928C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D33848D1-3195-45A3-AD68-4FF9BD5B928C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D33848D1-3195-45A3-AD68-4FF9BD5B928C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D33848D1-3195-45A3-AD68-4FF9BD5B928C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1400AFBE-194F-4B18-9B41-D70783341F83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1400AFBE-194F-4B18-9B41-D70783341F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1400AFBE-194F-4B18-9B41-D70783341F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1400AFBE-194F-4B18-9B41-D70783341F83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03346F17-0ABC-4BC8-A316-C6537ECB3455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03346F17-0ABC-4BC8-A316-C6537ECB3455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03346F17-0ABC-4BC8-A316-C6537ECB3455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03346F17-0ABC-4BC8-A316-C6537ECB3455}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
