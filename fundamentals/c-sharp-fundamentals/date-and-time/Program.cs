@@ -36,6 +36,13 @@ namespace date_and_time
             var end = DateTime.Now.AddMinutes(2);
             TimeSpan duration = start - end;
 
+            Console.WriteLine("duration:" + duration);
+
+            var start2 = DateTime.Now;
+            var duration2 = DateTime.Now.Subtract(DateTime.Now);
+            //TimeSpan duration2 = start2 - end2;
+            Console.WriteLine("duration2:" + duration2);
+
             Console.WriteLine("Minutes: " + timeSpan.Minutes);
             Console.WriteLine("Total Minutes: " + timeSpan.TotalMinutes);
 
