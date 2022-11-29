@@ -42,7 +42,8 @@ namespace lambda_expressions
 
             // lambda expression way of computing the square
             // number => number * number;
-            // Equivalent result can be achieved using lambda
+            // Equivalent result can be achieved using lambda. With this
+            // mechanism we don't need the Square function below.
             Func<int, int> SquareLam = number => number * number;
             // now make call using lambda
             Console.WriteLine(SquareLam(6));
@@ -72,14 +73,14 @@ namespace lambda_expressions
             var cheapBooks = books.FindAll(isCheaper); // Code will iterate the list of books and return the book that is cheaper
             foreach(var book in cheapBooks)
             {
-                Console.WriteLine("No lambda expr: " + book.Title);
+                Console.WriteLine("Found without lambda expr 'books.FindAll(isCheaper);': " + book.Title);
             }
 
             // The code above can be done using lambda expressions
             var cheapBooks2 = books.FindAll(book => book.Price < 10);
             foreach (var book in cheapBooks2)
             {
-                Console.WriteLine("Found with lambda expr:" + book.Title);
+                Console.WriteLine("Found using lambda expr 'books.FindAll(book => book.Price < 10);': " + book.Title);
             }
         }
         static bool isCheaper(Book book)
